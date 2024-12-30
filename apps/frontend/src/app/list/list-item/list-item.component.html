@@ -1,0 +1,6 @@
+<div class="flex gap-x-4 justify-evenly">
+  <span class="w-32 truncate">{{ item().name }}</span>
+  <span class="w-32 truncate">{{ item().birth_year }}</span>
+  <span class="w-32 truncate">{{ item().homeworld.name }}</span>
+  <span class="w-48 truncate" [title]="item().homeworld.terrain">{{ item().homeworld.terrain }}</span>
+</div>
